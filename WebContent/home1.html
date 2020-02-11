@@ -1,272 +1,197 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-	box-sizing: border-box
-}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CUTTACK EXPLORATION</title>
+<link rel="stylesheet" type="text/css" href="Css/style.css" />
+</head>
+<body style="background-color: #EFF7F7; margin: 0 0 0 0;">
+	<div id="header" class="full">
+		<div class="autoMar">
+			<div id="logoName" align="center">
+                    <span class="logoText" style="font-family:Bookman Old Style;font-size:35px; color: blue "> CUTTACK EXPLORATION</span>
+			</div>
+			<div id="searchBox" align="right">
+				<div style="float: left; width: 100px" align="right" >
+					<a href="home1.html"> <img src="images/Home-32.png" 
+						title="Go to Homepage" /><br />
+					</a>
+				</div>
+				<div style="clear: both"></div>
+				<div style="background: transparent;">
+					<form name="search" method="post" action="#"
+						onsubmit="return validateSearsh('search');">
+						<input type="text" placeholder="search" name="search" id='search'
+							size="15" style="background-color: white; width: 180px; height: 19px; color: black"/>
+						<input type="submit" value="GO" style="width: 40px; height: 25px;"/>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--TOPMENU-->
+	<div id="topMenucontener"
+		style="width: 100%; background: #fff; height: 40px">
+		<div id="templatemo_menu" class="autoMar">
+			<ul>
+				<li style="border-left: 2px solid #660000;"><a class="main"
+					href="city_info.jsp">ABOUT CUTTACK</a>
+				</li>
+				<li><a class="main" href="#">ADMINISTRATION</a>
+				</li>
+				<li><a class="main" href="#">MAP</a>
+				</li>
+				<li><a class="main" href="#">NEWS</a>
+				</li>
+				<li><a class="main" href="#">EVENTS & FESTIVALS</a>
+				</li>
+				<li><a class="main" href="#">KEY PEOPLE</a>
+				</li>
+				<li><a class="main" href="#">TOURISM</a>
+				</li>
+				<li><a class="main" href="Admission3.php">SUBSCRIPTION</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- end of menu -->
 
+
+
+
+
+	<div style="clear: both;"></div>
+	<div id="container" class="autoMar"
+		style="border-bottom-width: thick; position: relative;">
+		<div>
+			<table align="center" border="0" class="auto94Mar">
+				<tr>
+					<td>
+						<div id="banner" class="banner">
+							<div class="shadow"
+								style="overflow: hidden; height: 330px; border: transparent; width: 620px; float: left">
+								<link type="text/css" rel="stylesheet"
+									href="./imageSlider/css/rhinoslider-1.05.css" />
+								<script type="text/javascript"
+									src="./imageSlider/js/jquery.min.js"></script>
+								<script type="text/javascript"
+									src="./imageSlider/js/rhinoslider-1.05.min.js"></script>
+								<script type="text/javascript"
+									src="./imageSlider/js/mousewheel.js"></script>
+								<script type="text/javascript" src="./imageSlider/js/easing.js"></script>
+								<script type="text/javascript">
+    $(document).ready(function() {
+        $('#imageSlider').rhinoslider({
+            showTime: 3000,
+            effectTime: 7000,
+            easing: 'easeInCubic',
+            autoPlay: true,
+            showCaptions: 'always',
+            slidePrevDirection: 'toRight',
+            slideNextDirection: 'toLeft'
+        });
+    });
+</script>
+								<style type="text/css">
 body {
-	font-family: Verdana, sans-serif;
-	margin: 0
+	background-color: transparent;
 }
 
-.mySlides {
-	display: none
+#imageSlider {
+	width: 620px;
+	height: 330px;
+	/*                border: 2px solid white;          */
+	left: 0px;
+	/*IE bugfix*/
+	padding: 0;
+	margin: 0;
 }
 
-img {
-	vertical-align: middle;
+#imageSlider li {
+	list-style: none;
 }
 
-/* Slideshow container */
-.slideshow-container {
-	max-width: 1000px;
-	max-height: 200px;
-	position: relative;
-	margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 16px;
-	margin-top: -22px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-	color: #f2f2f2;
-	font-size: 15px;
-	padding: 8px 12px;
-	position: absolute;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-	cursor: pointer;
-	height: 15px;
-	width: 15px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-	background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1.5s;
-	animation-name: fade;
-	animation-duration: 1.5s;
-}
-
-@
--webkit-keyframes fade {
-	from {opacity: .4
-}
-
-to {
-	opacity: 1
-}
-
-}
-@
-keyframes fade {
-	from {opacity: .4
-}
-
-to {
-	opacity: 1
-}
-
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-	.prev, .next, .text {
-		font-size: 11px
-	}
+#contener {
+	width: 620px;
+	overflow: hidden;
 }
 </style>
-</head>
-<body>
-	<table border="0" cellpadding="0" cellspacing="0" width="100%">
-		<tbody>
-			<tr>
-				<td width="100%"><h1 class="style1" align="center">
-						<font color="#419E05">CUTTACK EXPLORATION 
-					</h1></td>
-				<td class="smtxtwhite" valign="bottom" width="69%"></td>
-			</tr>
-		</tbody>
-		<tr>
-			<td>
-				<div class="slideshow-container">
-					<div class="mySlides fade">
-						<div class="numbertext">1 / 6</div>
-						<img src="Images\Barabati_Fort_Cuttack.jpg"
-							style="width: 1070px; height: 266px">
-						<div class="text">Barabati Fort</div>
-					</div>
-
-					<div class="mySlides fade">
-						<div class="numbertext">2 / 6</div>
-						<img src="Images\state_museum.jpg"
-							style="width: 1078px; height: 266px">
-						<div class="text">State Museum</div>
-					</div>
-
-					<div class="mySlides fade">
-						<div class="numbertext">3 / 6</div>
-						<img src="Images\Odisha-HC.jpg" style="width: 669px"
-							style="width: 1078px; height: 266px">
-						<div class="text">Odisha High Court</div>
-					</div>
-
-					<div class="mySlides fade">
-						<div class="numbertext">4 / 6</div>
-						<img src="Images\Seven.jpg" style="width: 1078px; height: 266px">
-						<div class="text">Ravenshaw University</div>
-					</div>
-
-					<div class="mySlides fade">
-						<div class="numbertext">5 / 6</div>
-						<img src="Images\Maa.jpg" style="width: 1078px; height: 368px">
-						<div class="text">Durga Puja</div>
-					</div>
-
-					<div class="mySlides fade">
-						<div class="numbertext">6 / 6</div>
-						<img src="Images\Station.jpg" style="width: 1078px; height: 368px">
-						<div class="text">Railway Station</div>
-					</div>
-
-					<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a
-						class="next" onclick="plusSlides(1)">&#10095;</a>
-
-				</div> <br>
-
-				<div style="text-align: center">
-					<span class="dot" onclick="currentSlide(1)"></span> <span
-						class="dot" onclick="currentSlide(2)"></span> <span class="dot"
-						onclick="currentSlide(3)"></span>
-				</div> <script>
-					var slideIndex = 1;
-					showSlides(slideIndex);
-
-					function plusSlides(n) {
-						showSlides(slideIndex += n);
-					}
-
-					function currentSlide(n) {
-						showSlides(slideIndex = n);
-					}
-
-					function showSlides(n) {
-						var i;
-						var slides = document
-								.getElementsByClassName("mySlides");
-						var dots = document.getElementsByClassName("dot");
-						if (n > slides.length) {
-							slideIndex = 1
-						}
-						if (n < 1) {
-							slideIndex = slides.length
-						}
-						for (i = 0; i < slides.length; i++) {
-							slides[i].style.display = "none";
-						}
-						for (i = 0; i < dots.length; i++) {
-							dots[i].className = dots[i].className.replace(
-									" active", "");
-						}
-						slides[slideIndex - 1].style.display = "block";
-						dots[slideIndex - 1].className += " active";
-					}
-				</script>
-			</td>
-		</tr>
-		<marquee height="25" vspace="5" hspace="10"
-			style="color: #000000; font-size: 20px; border: double;">******Welcome
-			to Cuttack City******</marquee>
-			</tbody>
+								<div id="contener" align="center">
+									<ul id="imageSlider">
+										<li><img
+											src="Images/Barabati_Fort_Cuttack.jpg"
+											width="620" height="330"
+											title="Barabati Fort"></li>
+										<li><img
+											src="Images/BOSE.jpg"
+											width="620" height="330"
+											title="Subash Chandra Bose"></li>
+										<li><img src="Images/Balijtra.jpg"
+											width="620" height="330"
+											title="BaliJatra"></li>
+										<li><img src="Images/railway.jpg"
+											width="620" height="330"
+											title="Railwaay Station"></li>
+								</div>
+					</td>
+				</tr>
 			</table>
-			
-		<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			<tr>
-				<td background="Images\link_bg.jpg">&nbsp;</td>
-				<td style="background-repeat: repeat-x;" class="headermenu"
-					background="Images\link_bg.jpg" bgcolor="#ffffff">
-					<div align="center">
-						<a href="home1.html">HOME</a> 
-						<img src="Images\link_sep.jpg" align="absmiddle" width="5" 
-							height="60" hspace="30">
-						<a href="Cityview.jsp">HISTORY</a>
-						<img src="Images\link_sep.jpg" align="absmiddle" width="5"
-							height="60" hspace="30">
-						 <a href="city_info.jsp">NEWS</a>
-						  <img src="Images\link_sep.jpg" align="absmiddle" width="5"
-							height="60" hspace="30"> 
-						<a href="festival.jsp">SUBSCRIBE</a>
-							<img src="Images\link_sep.jpg" align="absmiddle" width="5"
-							height="60" hspace="30"> 
-						 <a href="contact.jsp">CONTACT US</a>
-					</div>
-				</td>
-			</tr>
-		</table>
+		</div>
 		
 		
-		<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			<tr></tr>
-			<tr>
-				<td colspan="2" bgcolor="#ded7d6"><img src="Images\spacer.gif"
-					width="980" height="3"></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td class="footer" align="right">Copyrights © , Cuttack. All Rights Reserved.
-				</td>
-			</tr>
-		</table>
+		
+		
+		
+		
+		<div style="clear: both;"></div>
+		<div id="topMenucontener" class="shadow"
+			style="width: 100%; background: #fff; height: 33px; margin: 6px 0px 0px 0px; z-index: 1;">
+			<div style="width: 50%; float: left;">
+				<marquee scrolldelay="130" onmouseover="this.stop();"
+					onmouseout="this.start();">
+				<p
+					style="font-size: 16px; color: #333333; font-weight: bold; line-height: 0px; margin-top: 6px;">
+					<img src='images/new.gif' /> <span><a href='#'>***WELCOME To SILVER CITY CUTTACK***</a>
+					 <img src='images/new.gif' /> <span><a href='#'> ***CITY OF BROTHERHOOD***</a> 
+				</p>
+				</marquee>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+		<div id="page-content" class="shadow spacer10 ravBg">
+			<div id="pageContentNew" class="opac80" align="center">
+				<h2>Cuttack City Guide</h2>
+				<p>
+					<span>Cuttack, the former capital of Odisha, (then Orissa)
+						is known to be one of the oldest cities of the state, holding
+						great significance. The ancient city has seen many historical
+						phases, rise and fall of various empires, impacting the city in
+						various ways that still show through ancient remains that still
+						exist here. There are various places of interest like Barabati
+						Fort, Chandi Temple, Quadam-e-Rasool. The city is also popular for
+						the silver Filgiri work that is simply brilliant and unique. Among
+						the festivals celebrated here, the important ones are Dushhera,
+						Kali Puja, Katikeshwar Puja and Bali Yatra â€“ the biggest trade
+						festival. People of the city follow ancient traditions and rituals
+						that can be seen the way they celebrate.</span>
+				</p>
+
+				<p class="rm" align="right">
+					<a href="city_info.jsp">Read More</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="leftFooter" align="center">
+			<a href="city_info.jsp">About Cuttack</a> <a>&nbsp; |
+				&nbsp;</a> <a href="Content/Holiday-list-2016.jpg" download>Holiday
+				List</a> <a>&nbsp; | &nbsp;</a></a> <a href="ContactUs.php">Contact</a>
+		</div>
+	</div>
+	<div id="copyright">&copy; 2020 Cuttack Exploration All rights
+		reserved</div>
+	<!--</div>-->
 </body>
 </html>
