@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>CUTTACK EXPLORATION</title>
 <link rel="stylesheet" type="text/css" href="Css/style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="Css/slideshow.css" />
 </head>
 <body style="background-color: #EFF7F7; margin: 0 0 0 0;">
@@ -56,87 +57,76 @@
 		</div>
 	</div>
 	<!-- end of menu -->
-
-
-
-
-
-	<div style="clear: both;"></div>
-	<div id="container" class="autoMar"
-		style="border-bottom-width: thick; position: relative;">
-		<div>
-			<table align="center" border="0" class="auto94Mar">
-				<tr>
-					<td>
-						<div id="banner" class="banner">
-							<div class="shadow"
-								style="overflow: hidden; height: 330px; border: transparent; width: 620px; float: left">
-								<link type="text/css" rel="stylesheet"
-									href="./imageSlider/css/rhinoslider-1.05.css" />
-								<script type="text/javascript"
-									src="./imageSlider/js/jquery.min.js"></script>
-								<script type="text/javascript"
-									src="./imageSlider/js/rhinoslider-1.05.min.js"></script>
-								<script type="text/javascript"
-									src="./imageSlider/js/mousewheel.js"></script>
-								<script type="text/javascript" src="./imageSlider/js/easing.js"></script>
-								<script type="text/javascript">
-    $(document).ready(function() {
-        $('#imageSlider').rhinoslider({
-            showTime: 3000,
-            effectTime: 7000,
-            easing: 'easeInCubic',
-            autoPlay: true,
-            showCaptions: 'always',
-            slidePrevDirection: 'toRight',
-            slideNextDirection: 'toLeft'
-        });
-    });
-</script>
-								<style type="text/css">
-body {
-	background-color: transparent;
-}
-
-#imageSlider {
-	width: 620px;
-	height: 330px;
-	/*                border: 2px solid white;          */
-	left: 0px;
-	/*IE bugfix*/
-	padding: 0;
-	margin: 0;
-}
-
-#imageSlider li {
-	list-style: none;
-}
-
-#contener {
-	width: 620px;
-	overflow: hidden;
-}
-</style>
-								<div id="contener" class="slideshow-container" align="center">
-									<ul id="imageSlider" >
+								<div id="contener"  class="slideshow-container" align="center">
+									<ul>
 										<li>
 											<div class="mySlides fade">
-												<div class="numbertext">1 / 5</div>
-												<img src="Images/Barabati_Fort_Cuttack.jpg" style="widt100%"
+												<div class="numbertext"></div>
+												<img src="Images/Barabati_Fort_Cuttack.jpg" style="width:100%" 
 													height="330" title="Barabati Fort">
+													<div class="text">Barabati Fort</div>
 										</li>
-										<li><img
-											src="Images/BOSE.jpg"
-											width="620" height="330"
-											title="Subash Chandra Bose"></li>
-										<li><img src="Images/Balijtra.jpg"
-											width="620" height="330"
-											title="BaliJatra"></li>
-										<li><img src="Images/railway.jpg"
-											width="620" height="330"
-											title="Railwaay Station"></li>
+										<li>
+											<div class="mySlides fade">
+												<div class="numbertext"></div>
+												<img src="Images/BOSE.jpg" style="width: 100%"
+												 height="330" title="Subash Chandra Bose">
+											<div class="text">Barabati Fort</div>
+										</li>
+										<li>
+											<div class="mySlides fade">
+												<div class="numbertext"></div>
+												<img src="Images/Balijtra.jpg" style="width: 100%"
+													height="330" title="BaliJatra">
+													<div class="text">BaliJatra</div>
+										</li>
+										<li>
+											<div class="mySlides fade">
+												<div class="numbertext"></div>
+												<img src="Images/railway.jpg" style="width: 100%"
+													height="330" title="Railway Station">
+												<div class="text">Railways Station</div>
+										</li>
+										<li>
+											<div class="mySlides fade">
+												<div class="numbertext"></div>
+												<img src="Images/railway.jpg" style="width: 100%"
+													height="330" title="Railway Station">
+												<div class="text">Railways Station</div>
+										</li>
 								</div>
-					</td>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {
+				slideIndex = 1
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+	</script>
+	</td>
 				</tr>
 			</table>
 		</div>
