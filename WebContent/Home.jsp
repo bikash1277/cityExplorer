@@ -174,8 +174,8 @@
 		</div>
 	</div>
 	</div>
-<br>
-	<div id="footer">
+	<br>
+		<div id="footer">
 			<div class="leftFooter" align="center">
 				<a>&nbsp; | &nbsp;</a><a href="Emergency Contact.jsp">Emergency
 					Contact</a> <a>&nbsp; | &nbsp;</a> <a href="Holiday List.jsp">Holiday
@@ -184,7 +184,6 @@
 			</div>
 		</div>
 		<div id="copyright">&copy; 2020 Cuttack Exploration All rights
-		reserved</div>
-	<!--</div>-->
+			reserved</div> <!--</div>-->
 </body>
 </html>

@@ -58,8 +58,8 @@
 	</div>
 
 	<!-- end of menu -->
-	
-	
+
+
 	<div style="clear: both;"></div>
 	<div id="topMenucontener" class="shadow"
 		style="width: 100%; background: #fff; height: 33px; margin: 6px 0px 0px 0px; z-index: 1;">
@@ -78,30 +78,13 @@
 	<div style="clear: both;"></div>
 	<div id="page-content" class="shadow spacer10 ravBg">
 		<div id="pageContentNew" class="opac80" align="center">
-			<h2>Cuttack City Guide</h2>
-			<p>
-				<span>Cuttack, the former capital of Odisha, (then Orissa) is
-					known to be one of the oldest cities of the state, holding great
-					significance. The ancient city has seen many historical phases,
-					rise and fall of various empires, impacting the city in various
-					ways that still show through ancient remains that still exist here.
-					There are various places of interest like Barabati Fort, Chandi
-					Temple, Quadam-e-Rasool. The city is also popular for the silver
-					Filgiri work that is simply brilliant and unique. Among the
-					festivals celebrated here, the important ones are Dushhera, Kali
-					Puja, Katikeshwar Puja and Bali Yatra – the biggest trade
-					festival. People of the city follow ancient traditions and rituals
-					that can be seen the way they celebrate.</span>
-			</p>
-
-			<p class="rm" align="right">
-				<a href="ABOUT CUTTACK.jsp">Read More</a>
-			</p>
+			<h2>Cuttack City Map</h2>
+			<img src='Images/cuttack-map.jpg' alt="Cuttack Maps" />
 		</div>
 	</div>
 	</div>
-<br>
-	<div id="footer">
+	<br>
+		<div id="footer">
 			<div class="leftFooter" align="center">
 				<a>&nbsp; | &nbsp;</a><a href="Emergency Contact.jsp">Emergency
 					Contact</a> <a>&nbsp; | &nbsp;</a> <a href="Holiday List.jsp">Holiday
@@ -110,7 +93,6 @@
 			</div>
 		</div>
 		<div id="copyright">&copy; 2020 Cuttack Exploration All rights
-		reserved</div>
-	<!--</div>-->
+			reserved</div> <!--</div>-->
 </body>
 </html>

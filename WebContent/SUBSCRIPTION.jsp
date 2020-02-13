@@ -58,7 +58,7 @@
 	</div>
 
 	<!-- end of menu -->
-	
+
 	<div style="clear: both;"></div>
 	<div id="topMenucontener" class="shadow"
 		style="width: 100%; background: #fff; height: 33px; margin: 6px 0px 0px 0px; z-index: 1;">
@@ -74,34 +74,32 @@
 			</marquee>
 		</div>
 	</div>
-	<div style="clear: both;"></div>
-	<div id="page-content" class="shadow spacer10 ravBg">
-		<div id="pageContentNew" class="opac80" align="center">
-			<h2>Cuttack City Guide</h2>
-			<p>
-				<span>Cuttack, the former capital of Odisha, (then Orissa) is
-					known to be one of the oldest cities of the state, holding great
-					significance. The ancient city has seen many historical phases,
-					rise and fall of various empires, impacting the city in various
-					ways that still show through ancient remains that still exist here.
-					There are various places of interest like Barabati Fort, Chandi
-					Temple, Quadam-e-Rasool. The city is also popular for the silver
-					Filgiri work that is simply brilliant and unique. Among the
-					festivals celebrated here, the important ones are Dushhera, Kali
-					Puja, Katikeshwar Puja and Bali Yatra – the biggest trade
-					festival. People of the city follow ancient traditions and rituals
-					that can be seen the way they celebrate.</span>
-					
-					
-			</p>
-			<p class="rm" align="right">
-				<a href="ABOUT CUTTACK.jsp">Read More</a>
-			</p>
+	<form action="action_page.php" style="margin-left: 35em;display: inline-block;" method="post">
+		<div class="imgcontainer" >
+			<img src="Images/img_avatar2.png" alt="Avatar"
+				style="width: 200px; height: 200px" class="avatar">
 		</div>
-	</div>
-	</div>
-<br>
-	<div id="footer">
+		<br>
+		<br>
+		<div class="container">
+
+			<label for="uname"><b style="align-content: center;">Username: </b></label>
+			<input type="text" style="margin-left: 1.5em" placeholder="Enter Username" name="uname" required>
+				<br> <br>
+				<label for="psw"><b style="align-content: center;">Password: </b></label><input
+				type="password" style="margin-left: 1.5em" placeholder="Enter Password" name="psw" required>
+				<br> <br>
+			<button type="submit">Login</button>
+				<button type="button" class="cancelbtn" style="margin-left: 2.5em">Cancel</button>
+				<br> <br><label> <input type="checkbox"
+				checked="checked" name="remember"> Remember me </label> <span
+				class="psw" style="margin-left: 2.5em">Forgot <a href="#">password?</a></span>
+		</div>
+		</div>
+	</form>
+	<br> <br> <br> <br> <br> <br> <br> <br>
+	<br>
+		<div id="footer">
 			<div class="leftFooter" align="center">
 				<a>&nbsp; | &nbsp;</a><a href="Emergency Contact.jsp">Emergency
 					Contact</a> <a>&nbsp; | &nbsp;</a> <a href="Holiday List.jsp">Holiday
@@ -110,7 +108,6 @@
 			</div>
 		</div>
 		<div id="copyright">&copy; 2020 Cuttack Exploration All rights
-		reserved</div>
-	<!--</div>-->
+			reserved</div> <!--</div>-->
 </body>
 </html>

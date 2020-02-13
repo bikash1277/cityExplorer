@@ -58,8 +58,8 @@
 	</div>
 
 	<!-- end of menu -->
-	
-	
+
+
 	<div style="clear: both;"></div>
 	<div id="topMenucontener" class="shadow"
 		style="width: 100%; background: #fff; height: 33px; margin: 6px 0px 0px 0px; z-index: 1;">
@@ -78,30 +78,91 @@
 	<div style="clear: both;"></div>
 	<div id="page-content" class="shadow spacer10 ravBg">
 		<div id="pageContentNew" class="opac80" align="center">
-			<h2>Cuttack City Guide</h2>
+			<h2>Festivals</h2>
 			<p>
-				<span>Cuttack, the former capital of Odisha, (then Orissa) is
-					known to be one of the oldest cities of the state, holding great
-					significance. The ancient city has seen many historical phases,
-					rise and fall of various empires, impacting the city in various
-					ways that still show through ancient remains that still exist here.
-					There are various places of interest like Barabati Fort, Chandi
-					Temple, Quadam-e-Rasool. The city is also popular for the silver
-					Filgiri work that is simply brilliant and unique. Among the
-					festivals celebrated here, the important ones are Dushhera, Kali
-					Puja, Katikeshwar Puja and Bali Yatra – the biggest trade
-					festival. People of the city follow ancient traditions and rituals
-					that can be seen the way they celebrate.</span>
+				<h5 align="left"
+					style="margin-left: 10em; text-decoration: underline;">Durga
+					Puja:</h5>
+				<span style="margin-left: 7em;"> Cuttack is famous throughout the nation for its Durga
+					puja celebrations. Nearly 200 earthen idols of Goddess Durga are
+					prepared by the different Puja Committees of the city to worship
+					Goddess Durga The speciality Cuttack Durga Puja are its Chandi o
+					Suna Medhas, in which the idols are adorned with huge amounts of
+					gold and silver, with localities trying to outsmart each other by
+					constructing more attractive idols. Cuttack celebrates Durga Puja
+					with full energy on Maha Saptami, Maha Ashtami, Maha Navami and on
+					Vijaya Dashami or Dussehra by burning an effigy of the demon
+					Ravana. People from all of Odisha and nearby states visit Cuttack
+					during this period observe the famous festival.</span>
+			</p>
+			<br />
+			<p>
+				<h5 align="left"
+					style="margin-left: 10em; text-decoration: underline;">Boita
+					Bandana:</h5>
+				<span style="margin-left: 7em;">This festival is celebrated
+					on the last day of the holy Hindu month of Kartik. On this
+					auspicious day people flow miniature boitas or model boats in the
+					Mahanadi and Kathajodi rivers to pay homage to the ancient
+					merchants of Kalinga Kingdom. This day also marks the beginning of
+					Bali Jatra. This festival is similar to the Masakapan Ke Tukad
+					festival of Bali, and to the Loi Krathong festival of Thailand,
+					both of which involve ritualistic floating of model boats around
+					the same time of year</span>
+			</p>
+			<br />
+			<p>
+				<h5 align="left"
+					style="margin-left: 10em; text-decoration: underline;">Bali
+					Jatra:</h5>
+				<span style="margin-left: 7em;">The festival which the people
+					of Cuttack await the most is the Bali Jatra.[21] Bali Yatra is
+					supposedly the second largest trade festival in Asia and the
+					largest in India. The name Bali Jatra literally means A Voyage to
+					Bali. In olden times, merchants used to trade with South-East Asian
+					Island Countries of Bali, Java, Sumatra, Borneo. Whatever items
+					they brought from those places after trading Oriya goods used to be
+					put up for sale in the capital (which was then Cuttack). People
+					from all over the state and beyond used to come to Cuttack to buy
+					these items. Bali Jatra is the festival of continuing this ancient
+					tradition. It is held every year in November on the banks of the
+					Mahanadi. Many stalls are set up selling both local and exotic
+					goods. People from all over Odisha come to the Bali Jatra to buy
+					items, as was the custom back in those days.</span>
+			</p>
+			<br />
+			<p>
+				<h5 align="left"
+					style="margin-left: 10em; text-decoration: underline;">Kartikeshwar Puja:</h5>
+				<span>This festival is dedicated to
+					the Hindu Goddess Kali and is celebrated on the new moon day of the
+					Hindu month of Kartik. It coincides with the pan-Indian festival of
+					Diwali amidst the bursting of firecrackers.</span>
+			</p>
+			<br />
+			<p>
+				<h5 align="left"
+					style="margin-left: 10em; text-decoration: underline;">Bada Osha: </h5>
+				<span>This is unique to Dhabaleswar
+					Temple. Special Bhoga namely Gaja and Tarana are prepared on this
+					day for the worshippers.</span>
+			</p>
+						<br />
+			<p>
+				<h6 style="margin-left: 7em;">All the other regular Indian
+					festivals like Ratha Yatra, Raja, Ganesh Chaturthi, Vasant
+					Panchami, Holi, Diwali, Chhath, Eid, Good Friday, Christmas, and
+					the numerous festivals are celebrated here.</h6>
 			</p>
 
-			<p class="rm" align="right">
-				<a href="ABOUT CUTTACK.jsp">Read More</a>
-			</p>
+
+
+
 		</div>
 	</div>
 	</div>
-<br>
-	<div id="footer">
+	<br>
+		<div id="footer">
 			<div class="leftFooter" align="center">
 				<a>&nbsp; | &nbsp;</a><a href="Emergency Contact.jsp">Emergency
 					Contact</a> <a>&nbsp; | &nbsp;</a> <a href="Holiday List.jsp">Holiday
@@ -110,7 +171,6 @@
 			</div>
 		</div>
 		<div id="copyright">&copy; 2020 Cuttack Exploration All rights
-		reserved</div>
-	<!--</div>-->
+			reserved</div> <!--</div>-->
 </body>
 </html>

@@ -58,7 +58,7 @@
 	</div>
 
 	<!-- end of menu -->
-	
+
 	<div style="clear: both;"></div>
 	<div id="topMenucontener" class="shadow"
 		style="width: 100%; background: #fff; height: 33px; margin: 6px 0px 0px 0px; z-index: 1;">
@@ -92,16 +92,16 @@
 					festival. People of the city follow ancient traditions and rituals
 					that can be seen the way they celebrate.</span>
 			</p>
-	</div>
-
-			<p class="rm" align="right">
-				<a href="ABOUT CUTTACK.jsp">Read More</a>
-			</p>
 		</div>
+
+		<p class="rm" align="right">
+			<a href="ABOUT CUTTACK.jsp">Read More</a>
+		</p>
 	</div>
 	</div>
-<br>
-	<div id="footer">
+	</div>
+	<br>
+		<div id="footer">
 			<div class="leftFooter" align="center">
 				<a>&nbsp; | &nbsp;</a><a href="Emergency Contact.jsp">Emergency
 					Contact</a> <a>&nbsp; | &nbsp;</a> <a href="Holiday List.jsp">Holiday
@@ -110,7 +110,6 @@
 			</div>
 		</div>
 		<div id="copyright">&copy; 2020 Cuttack Exploration All rights
-		reserved</div>
-	<!--</div>-->
+			reserved</div> <!--</div>-->
 </body>
 </html>

@@ -58,7 +58,7 @@
 	</div>
 
 	<!-- end of menu -->
-	
+
 	<div style="clear: both;"></div>
 	<div id="topMenucontener" class="shadow"
 		style="width: 100%; background: #fff; height: 33px; margin: 6px 0px 0px 0px; z-index: 1;">
@@ -77,30 +77,64 @@
 	<div style="clear: both;"></div>
 	<div id="page-content" class="shadow spacer10 ravBg">
 		<div id="pageContentNew" class="opac80" align="center">
-			<h2>Cuttack City Guide</h2>
-			<p>
-				<span>Cuttack, the former capital of Odisha, (then Orissa) is
-					known to be one of the oldest cities of the state, holding great
-					significance. The ancient city has seen many historical phases,
-					rise and fall of various empires, impacting the city in various
-					ways that still show through ancient remains that still exist here.
-					There are various places of interest like Barabati Fort, Chandi
-					Temple, Quadam-e-Rasool. The city is also popular for the silver
-					Filgiri work that is simply brilliant and unique. Among the
-					festivals celebrated here, the important ones are Dushhera, Kali
-					Puja, Katikeshwar Puja and Bali Yatra – the biggest trade
-					festival. People of the city follow ancient traditions and rituals
-					that can be seen the way they celebrate.</span>
-			</p>
-
-			<p class="rm" align="right">
-				<a href="ABOUT CUTTACK.jsp">Read More</a>
-			</p>
+			<h4 align="left"
+				style="margin-left: 10em; text-decoration: underline;">WHAT'S
+				NEW:</h4>
+			<table>
+				<tr>
+					<p>
+						<a
+							href="https://cuttack.nic.in/notice/tender-call-notice-of-sub-collectors-office-cuttack/">Tender
+							Call Notice of sub-Collector's Office Cuttack.</a>
+					</p>
+				</tr>
+				<tr>
+					<p>
+						<a href="https://cuttack.nic.in/?post_type=document&p=30345">ARMY
+							RECRUITMENT RALLY AT PARADIP WITH EFFECT FROM 05 APRIL 2020 TO 16
+							APRIL 2020</a>
+					</p>
+				</tr>
+				<tr>
+					<p>
+						<a
+							href="https://cuttack.nic.in/notice/supply-of-different-items-to-anganwadi-center-articles-under-the-icds-project-badamba/">Supply
+							of different items to Anganwadi Center Articles under the ICDS
+							Project Badamba.</a>
+					</p>
+				</tr>
+				<tr>
+					<p>
+						<a
+							href="https://cuttack.nic.in/notice/tender-call-notice-and-tender-document-of-level-i-transport-contractor-of-o-s-c-s-c-ltd-cuttack-for-the-year-2019-2021/">
+							Tender Call Notice and Tender document of Level-I Transport
+							contractor of O.S.C.S.C. Ltd, Cuttack for the year-2019-2021.</a>
+					</p>
+				</tr>
+				<tr>
+					<p>
+						<a href="https://cuttack.nic.in/?post_type=document&p=30336">
+							Cause list in the Court of Revenue Divisional
+							Commissioner,Central Division, Cuttack-Cause on date 11.02.2020.</a>
+					</p>
+				</tr>
+				<tr>
+					<p>
+						<a href="https://cuttack.nic.in/?post_type=document&p=30333">Recruitment
+							and Selection of dedicated Centre of Excellence (COE) staffs at
+							Abhimanpur Maa Kalapat GPLF,under Badamba Block Cuttack.</a>
+					</p>
+				</tr>
+			</table>
 		</div>
 	</div>
 	</div>
-<br>
-	<div id="footer">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+		<div id="footer">
 			<div class="leftFooter" align="center">
 				<a>&nbsp; | &nbsp;</a><a href="Emergency Contact.jsp">Emergency
 					Contact</a> <a>&nbsp; | &nbsp;</a> <a href="Holiday List.jsp">Holiday
@@ -109,7 +143,6 @@
 			</div>
 		</div>
 		<div id="copyright">&copy; 2020 Cuttack Exploration All rights
-		reserved</div>
-	<!--</div>-->
+			reserved</div> <!--</div>-->
 </body>
 </html>
