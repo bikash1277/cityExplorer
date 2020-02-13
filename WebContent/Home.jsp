@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Events & Festivals</title>
+<title>Home</title>
 <link rel="stylesheet" type="text/css" href="Css/style.css" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="Css/slideshow.css" />
@@ -85,9 +85,9 @@
 				<td>
 					<div class="mySlides fade">
 						<div class="numbertext"></div>
-						<img src="Images/railway.jpg" width="850" height="500"
-							title="Railway Station">
-							<div class="text">Railways Station</div>
+						<img src="Images/state_museum.jpg" width="850" height="500"
+							title="State Museum">
+							<div class="text">State Museum</div>
 				</td>
 				<td>
 					<div class="mySlides fade">
@@ -99,10 +99,14 @@
 			</tr>
 			</div>
 			<br>
-				<div style="text-align: center">
-					<span class="dot"></span> <span class="dot"></span> <span
-						class="dot"></span> <span class="dot"></span> <span class="dot"></span>
-				</div> <script>
+				<tr>
+					<div style="text-align: center">
+						<span class="dot"></span> <span class="dot"></span> <span
+							class="dot"></span> <span class="dot"></span> <span class="dot"></span>
+					</div>
+				</tr>
+		</table>
+		<script>
 		var slideIndex = 0;
 		showSlides();
 
@@ -125,8 +129,8 @@
 			setTimeout(showSlides, 2000); // Change image every 2 seconds
 		}
 	</script>
-				</td>
-				</tr>
+		</td>
+		</tr>
 		</table>
 	</div>
 

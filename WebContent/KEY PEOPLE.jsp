@@ -1,234 +1,185 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>HomePage</title>
-<link href="Images\style.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-<!--
-.style1 {
-	color:
-}
--->
-</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Key People</title>
+<link rel="stylesheet" type="text/css" href="Css/style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Css/slideshow.css" />
 </head>
-<body background="" bgcolor="#EFF7F7">
-	<table border="0" cellpadding="0" cellspacing="0" width="100%">
-		<tbody>
-			<tr>
-				<td style="background-repeat: repeat-z;" background="" valign="top"><table
-						align="center" border="0" cellpadding="0" cellspacing="0"
-						width="1000">
-						<tbody>
-							<tr>
-								<td height="54">&nbsp;</td>
-								<td><table border="0" cellpadding="0" cellspacing="0"
-										width="100%">
-										<tbody>
-											<tr>
-												<td width="100%"><h1 class="style1"align="center"><font color="#419E05">CUTTACK
-														EXPLORATION </h1></td>
-												<td class="smtxtwhite" valign="bottom" width="69%"></td>
-											</tr>
-										</tbody>
-									</table></td>
-								<td width="0">&nbsp;</td>
-							</tr>
-							<tr>
-								<td background="Images\link_bg.jpg"><img
-									src="Images\link_bg.jpg" width="0" height="100"></td>
-								<td><img src="Images\CUTTACK.jpg" alt="HEADER 1"
-									width="320" height="200"><img
-									src="Images\BOSE.jpg" alt="HEADER 2" width="300"
-									height="200"><img src="Images\Maa.jpg" alt="HEADER 3"
-									width="300" height="200"><img src="Images\Station.jpg"
-									alt="HEADER 4" width="320" height="200">
-								<td background="Images\link_bg.jpg"><img
-									src="Images\link_bg.jpg" width="0"></td>
-							</tr>
-							<tr>
-								<td background="Images\link_bg.jpg">&nbsp;</td>
-								<td style="background-repeat: repeat-x;" class="headermenu"
-									background="Images\link_bg.jpg" bgcolor="#ffffff">
-									<div align="center">
-										<a href="home1.html">HOME</a> <img src="Images\link_sep.jpg"
-											align="absmiddle" width="10" height="60" hspace="30"> <a
-											href="city_info.jsp">CITY PROFILE</a> <img
-											src="Images\link_sep.jpg" align="absmiddle" width="10"
-											height="60" hspace="30"> <a href="photoGallery.jsp">GALLERY</a>
-										<img src="Images\link_sep.jpg" align="absmiddle" width="10"
-											height="60" hspace="30"> <a href="Cityview.jsp">HISTORY</a>
-										<img src="Images\link_sep.jpg" align="absmiddle" width="10"
-											height="60" hspace="30"> <a href="festival.jsp">FESTIVALS</a>
-										<img src="Images\link_sep.jpg" align="absmiddle" width="10"
-											height="60" hspace="30"> <a href="Tarvels.jsp"
-											target="_self">TRAVELS</a> <img src="Images\link_sep.jpg"
-											align="absmiddle" width="10" height="60" hspace="30"> <a
-											href="Cityview.jsp">CUTTACK MAP</a> <img
-											src="Images\link_sep.jpg" align="absmiddle" width="10"
-											height="60" hspace="30"> <a href="contact.jsp">CONTACT
-											US</a>
-									</div>
-								</td>
-								<td background="Images\Station.jpg">&nbsp;</td>
-							</tr>
-						</tbody>
-					</table></td>
-			</tr>
-		</tbody>
-	</table>
-
-	<marquee height="25" vspace="5" hspace="10"
-		style="color: #000000; font-size: 20px; border: double;">******Welcome
-		to Cuttack City******</marquee>
-	<img src="Images\rgt_sep.jpg">
-	<img src="Images\rgt_sep.jpg">
-	<img src="Images\rgt_sep.jpg">
-	<img src="Images\rgt_sep.jpg">
-	<table align="center" width="150%">
-		<tr>
-			<td align="left">
-				<div class="sidenav A">
-					<fieldset>
-						<legend>View</legend>
-						<a href="ATM locations.jsp" target="_self">ATM Locations</a><br>
-						<a href="Bank locations.jsp">Banks</a><br> <a
-							href="Blood banks.jsp">Blood Banks</a><br> <a
-							href="Tarvels.jsp">Car Dealers</a><br> <a 
-							href="Emergency.jsp">Emergency</a><br> <a
-							href="Functionhalls.jsp">Function Halls</a><br> <a
-							href="Healthline.jsp">Hospitals</a><br> <a
-							href="Theaters.jsp">Movie Theaters</a><br> <a
-							href="shoppingMall.jsp">Shopping Malls</a><br> <a
-							href="temples.jsp">Temples</a><br> <a
-							href="Indu1.jsp">Industries</a>
-					</fieldset>
+<body style="background-color: #EFF7F7; margin: 0 0 0 0;">
+	<div id="header" class="full">
+		<div class="autoMar">
+			<div id="logoName" align="center">
+				<span class="logoText"
+					style="font-family: Bookman Old Style; font-size: 35px; color: blue">
+					CUTTACK EXPLORATION</span>
+			</div>
+			<div id="searchBox" align="right">
+				<div style="float: left; width: 200px" align="right">
+					<a href="Home.jsp"> <img src="Images/Home-32.png"
+						title="Go to Homepage" /><br />
+					</a>
 				</div>
-			</td>
-<td align="left" valign="top" width="5">&nbsp;</td>
-                <td align="left" valign="top" width="189"><table align="right" border="0" cellpadding="0" cellspacing="0" width="98%">
-                    <tbody><tr>
-                      <td align="right" valign="top" width="776"><div>
-                          <div class="innner_bodybg" style="width: 779px;">
-                            <div style="background-image: url(images/Inner_heading_bg.gif); background-repeat: repeat-x; height: 31px;">
-                              <div style="height: 31px; width: 37px; float: left;"><img src="Healthline_files/Inner_heading_img.gif"></div>
-   <div style="float: left; padding-top: 8px; font-family: arial; font-size: 14px; color: rgb(0, 0, 0); font-weight: bold;">Hospitals in Cuttack</div>
-                            </div>
-                            <div>
-                              <table align="center" cellpadding="0" cellspacing="0" width="776">
-                                <tbody><tr>
-                                  <td class="inner_border" align="left" valign="top" width="194">1)Sagar Durga Hospital<br>
-15-13-6, Krishna Nagar, Cuttack &#8211; 753006.<br>
-Phone: +91-891-2526833, 2706888.</td>
-                                  <td class="inner_border" align="left" valign="top" width="194">2)Krishna Hospital &amp; IVF Clinic <br>
-4-37-7, Mahatab Road, Cuttack &#8211; 753009. <br>
-Phone: +91-891-2706164, 2706722, 2538194, 538195</td><br>
-                                  <td class="inner_border" align="left" valign="top" width="194">3)Nizam Hospitals <br>
-1-200, Ranihat Square, Cuttack - 753010. <br>
-Phone: +91891-2798798.</td><br>
-                                  <td class="inner_btm" align="left" valign="top" width="194">4)Metro Multi Specialty Hospitals <br>
-18-1-3, KGH Down, BK Road, <br>
-Cuttack - 530002.<br>
-Phone: +91891-2793636</td>
-                                </tr>
-                                <tr>
-                                  <td class="inner_border" align="left" valign="top">5)Subham Prema Hospital ,<br>
-                                    9-1-227,<br> 
-                                    Opp. Ramatalkies Junction, 
-                                    <br>
-                                    CBM Compound,<br> 
-                                    Cuttack. <br>
-Phone: +91891-2793444.</td>
-                                  <td class="inner_border" align="left" valign="top">6)Abhaya Critical Care ,
-                                    <br>
-                                    18-1-34,<br> 
-Opp. KGH OP Gate, <br>
-Mangalabag, <br>
-Cuttack - 753009.<br> 
-Phone: +91891-2791530. </td>
-                                  <td class="inner_border" align="left" valign="top">7)Lions Cancer Hospital <br>
-Mahanadivihar, Cuttack - 753009. <br>
-Phone: +91891-2789642.</td>
-                                  <td class="inner_btm" align="left" valign="top">8)Simhadri Hospitals <br>
-15-12-1, Krishna Nagar,<br> 
-CDA square, Cuttack. <br>
-Phone: +91891-2784747</td>
-                                </tr>
-                                <tr>
-                                  <td class="inner_border" align="left" valign="top">9)RCD Hospital <br>
-Choudwar, Cuttack - 753006. <br>
-Phone: +91891-2780061.</td>
-                                  <td class="inner_border" align="left" valign="top">10)Medicare Hospital <br>
-9-17-38, Main Road, Athagarha, Cuttack - 753009. <br>
-Phone: +91891-2739155</td>
-                                  <td class="inner_border" align="left" valign="top">11)Lata Hospitals <br>
-10-51-1, Babambadi, Cuttack - 753002. <br>
-Phone: +91891-2736116.</td>
-                                  <td class="inner_btm" align="left" valign="top">12)Care Hospital <br>
-Plot No-10/11, Jagatpur, Cuttack - 753003. <br>
-Phone: +91891-2705343</td>
-                                </tr>
-                                <tr>
-                                  <td class="inner_border" align="left" valign="top">13)A.N.Beach Hospital <br>
-15-9-13/24, Krishna Nagar,<br> 
-Beach Road,  Cantonment Road, Cuttack - 753010.<br> 
-Phone : +91891-2728990.</td>
-                                  <td class="inner_border" align="left" valign="top">14)Nikita Hospital <br>
-54-13-6, Choudry Bazar, Cuttack - 753009.<br>
-Phone: +91891-2719696, 2719797</td>
-                                  <td class="inner_border" align="left" valign="top">16)Nature Cure Hospital <br>
-15-15-43A, Buxi bazara, <br>
-Cuttack - 753008.<br>
-Phone: +91891-2706057.</td>
-                                  <td class="inner_btm" align="left" valign="top">19)RACE Hospitals <br>
-18-1-34, Opp KGH OP Gate,<br>
-Ranihat Square <br>
-Cuttack - 753004. <br>
-Phone : +91891-2733220,   2733233</td>
-                                </tr>
-                                <tr>
-                                  <td class="inner_border" align="left" valign="top">MVP Hospital <br>
-Sector -7, MVP Colony,<br> 
-Plot No-6, Raithu Bazaar,  Cuttack - 753008.<br> 
-Phone: +91891-2579676.</td>
-                                  <td class="inner_border" align="left" valign="top">St.Anns Hospital <br>
-Haripur, <br>
-Cuttack - 530011. Phone: +91891-2577830</td>
-                                  <td class="inner_border" align="left" valign="top">Apollo Hospitals Enterprises <br>
-10-50-80, Waltair Main Road, Cuttack - 753006. <br>
-Phone: +91891-2568223</td>
-                                  <td class="inner_btm" align="left" valign="top">Kanakadurga Hospitals <br>
-15-6-10A, Krishna Nagar, Near Zilla Parishad, Cuttack - 753005. Phone: 2566932, 2569865.</td>
-                                </tr>
-                              </tbody></table>
-                            </div>
-                            <div style="padding-bottom: 3px; height: 15px; padding-top: 5px; padding-right: 5px;"><a href="#" class="top_link">Top&nbsp;<img src="Healthline_files/top_linkimg.gif" border="0" width="12" height="12"></a></div>
-                          </div>
-                        <div></div>
-                        <div></div>
-                      </div></td>
-                    </tr>
-                </tbody></table></td>
-              </tr>
-            
-<img src="Images\rgt_sep.jpg">
-	<img src="Images\rgt_sep.jpg">
-	<img src="Images\rgt_sep.jpg">
-	<img src="Images\rgt_sep.jpg">
-	<div class="more" align="right">
-		:: <a href="https://www.oyorooms.com/hotels-in-cuttack/">more
-			&gt;&gt;</a>
+				<div style="clear: both"></div>
+				<div style="background: transparent;">
+					<form name="search" method="post" action="#"
+						onsubmit="return validateSearsh('search');">
+						<input type="text" placeholder="search" name="search" id='search'
+							size="20"
+							style="background-color: white; width: 180px; height: 25px; color: black" />
+						<input type="submit" value="GO" style="width: 40px; height: 25px;" />
+					</form>
+				</div>
+			</div>
+		</div>
 	</div>
-	<table border="0" cellpadding="0" cellspacing="0" width="100%">
-		<tr>
-			<td colspan="2" bgcolor="#ded7d6"><img src="Images\spacer.gif"
-				width="980" height="3"></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td class="footer">Copyrights © , Cuttack. All Rights Reserved.
-			</td>
-			<td align="right"><img src="Images\cards.jpg" align="absmiddle"
-				width="178" height="32"></td>
-		</tr>
-	</table>
+	<!--TOPMENU-->
+	<div id="topMenucontener"
+		style="width: 100%; background: #fff; height: 40px">
+		<div id="templatemo_menu" class="autoMar">
+			<table bgcolor="#9A7B4F" cellpadding="15px" cellspacing="5px"
+				width="100%">
+				<tr>
+					<td style="border-left: 2px sotdd #660000; display: inline-block;"><a
+						class="main" href="ABOUT CUTTACK.jsp">ABOUT CUTTACK</a></td>
+					<td><a class="main" href="ADMINISTRATION.jsp">ADMINISTRATION</a>
+					</td>
+					<td><a class="main" href="MAP.jsp">MAP</a></td>
+					<td><a class="main" href="NEWS.jsp">NEWS</a></td>
+					<td><a class="main" href="EVENTS & FESTIVALS.jsp">EVENTS &
+							FESTIVALS</a></td>
+					<td><a class="main" href="KEY PEOPLE.jsp">KEY PEOPLE</a></td>
+					<td><a class="main" href="TOURISM.jsp">TOURISM</a></td>
+					<td><a class="main" href="SUBSCRIPTION.jsp">SUBSCRIPTION</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
 
-</body></html>                          
+	<!-- end of menu -->
+	<div id="contener" class="slideshow-container" align="center">
+		<table>
+			<tr>
+				<td>
+					<div class="mySlides fade">
+						<div class="numbertext"></div>
+						<img src="Images/Barabati_Fort_Cuttack.jpg" width="850"
+							height="500" title="Barabati Fort">
+							<div class="text">Barabati Fort</div>
+				</td>
+				<td>
+					<div class="mySlides fade">
+						<div class="numbertext"></div>
+						<img src="Images/BOSE.jpg" width="850" height="500"
+							title="Subash Chandra Bose">
+							<div class="text">Odia Bazar</div>
+				</td>
+				<td>
+					<div class="mySlides fade">
+						<div class="numbertext"></div>
+						<img src="Images/Balijtra.jpg" width="850" height="500"
+							title="BaliJatra">
+							<div class="text">BaliJatra</div>
+				</td>
+				<td>
+					<div class="mySlides fade">
+						<div class="numbertext"></div>
+						<img src="Images/railway.jpg" width="850" height="500"
+							title="Railway Station">
+							<div class="text">Railways Station</div>
+				</td>
+				<td>
+					<div class="mySlides fade">
+						<div class="numbertext"></div>
+						<img src="Images/railway.jpg" width="850" height="500"
+							title="Railway Station">
+							<div class="text">Railways Station</div>
+				</td>
+			</tr>
+			</div>
+			<br>
+				<div style="text-align: center">
+					<span class="dot"></span> <span class="dot"></span> <span
+						class="dot"></span> <span class="dot"></span> <span class="dot"></span>
+				</div> <script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {
+				slideIndex = 1
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+	</script>
+				</td>
+				</tr>
+		</table>
+	</div>
+
+	<div style="clear: both;"></div>
+	<div id="topMenucontener" class="shadow"
+		style="width: 100%; background: #fff; height: 33px; margin: 6px 0px 0px 0px; z-index: 1;">
+		<div style="width: 100%; float: left;">
+			<marquee scrolldelay="130" onmouseover="this.stop();"
+				onmouseout="this.start();">
+			<p
+				style="font-size: 16px; color: #333333; font-weight: bold; line-height: 0px; margin-top: 6px;">
+				<img src='Images/new.gif' /> <span><a href='#'>***WELCOME
+						To SILVER CITY CUTTACK***</a> <img src='Images/new.gif' /> <span><a
+						href='#'> ***CITY OF BROTHERHOOD***</a>
+			</p>
+			</marquee>
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+	<div id="page-content" class="shadow spacer10 ravBg">
+		<div id="pageContentNew" class="opac80" align="center">
+			<h2>Cuttack City Guide</h2>
+			<p>
+				<span>Cuttack, the former capital of Odisha, (then Orissa) is
+					known to be one of the oldest cities of the state, holding great
+					significance. The ancient city has seen many historical phases,
+					rise and fall of various empires, impacting the city in various
+					ways that still show through ancient remains that still exist here.
+					There are various places of interest like Barabati Fort, Chandi
+					Temple, Quadam-e-Rasool. The city is also popular for the silver
+					Filgiri work that is simply brilliant and unique. Among the
+					festivals celebrated here, the important ones are Dushhera, Kali
+					Puja, Katikeshwar Puja and Bali Yatra â€“ the biggest trade
+					festival. People of the city follow ancient traditions and rituals
+					that can be seen the way they celebrate.</span>
+			</p>
+
+			<p class="rm" align="right">
+				<a href="city_info.jsp">Read More</a>
+			</p>
+		</div>
+	</div>
+	</div>
+
+	<div id="footer">
+		<div class="leftFooter" align="center">
+			<a href="city_info.jsp">About Cuttack</a> <a>&nbsp; | &nbsp;</a> <a
+				href="Content/Holiday-list-2016.jpg" download>Holiday List</a> <a>&nbsp;
+				| &nbsp;</a></a> <a href="ContactUs.php">Contact</a>
+		</div>
+	</div>
+	<div id="copyright">&copy; 2020 Cuttack Exploration All rights
+		reserved</div>
+	<!--</div>-->
+</body>
+</html>
