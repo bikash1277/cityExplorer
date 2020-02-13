@@ -58,78 +58,7 @@
 	</div>
 
 	<!-- end of menu -->
-	<div id="contener" class="slideshow-container" align="center">
-		<table>
-			<tr>
-				<td>
-					<div class="mySlides fade">
-						<div class="numbertext"></div>
-						<img src="Images/Barabati_Fort_Cuttack.jpg" width="850"
-							height="500" title="Barabati Fort">
-							<div class="text">Barabati Fort</div>
-				</td>
-				<td>
-					<div class="mySlides fade">
-						<div class="numbertext"></div>
-						<img src="Images/BOSE.jpg" width="850" height="500"
-							title="Subash Chandra Bose">
-							<div class="text">Odia Bazar</div>
-				</td>
-				<td>
-					<div class="mySlides fade">
-						<div class="numbertext"></div>
-						<img src="Images/Balijtra.jpg" width="850" height="500"
-							title="BaliJatra">
-							<div class="text">BaliJatra</div>
-				</td>
-				<td>
-					<div class="mySlides fade">
-						<div class="numbertext"></div>
-						<img src="Images/railway.jpg" width="850" height="500"
-							title="Railway Station">
-							<div class="text">Railways Station</div>
-				</td>
-				<td>
-					<div class="mySlides fade">
-						<div class="numbertext"></div>
-						<img src="Images/railway.jpg" width="850" height="500"
-							title="Railway Station">
-							<div class="text">Railways Station</div>
-				</td>
-			</tr>
-			</div>
-			<br>
-				<div style="text-align: center">
-					<span class="dot"></span> <span class="dot"></span> <span
-						class="dot"></span> <span class="dot"></span> <span class="dot"></span>
-				</div> <script>
-		var slideIndex = 0;
-		showSlides();
-
-		function showSlides() {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			var dots = document.getElementsByClassName("dot");
-			for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = "none";
-			}
-			slideIndex++;
-			if (slideIndex > slides.length) {
-				slideIndex = 1
-			}
-			for (i = 0; i < dots.length; i++) {
-				dots[i].className = dots[i].className.replace(" active", "");
-			}
-			slides[slideIndex - 1].style.display = "block";
-			dots[slideIndex - 1].className += " active";
-			setTimeout(showSlides, 2000); // Change image every 2 seconds
-		}
-	</script>
-				</td>
-				</tr>
-		</table>
-	</div>
-
+	
 	<div style="clear: both;"></div>
 	<div id="topMenucontener" class="shadow"
 		style="width: 100%; background: #fff; height: 33px; margin: 6px 0px 0px 0px; z-index: 1;">
@@ -163,22 +92,24 @@
 					festival. People of the city follow ancient traditions and rituals
 					that can be seen the way they celebrate.</span>
 			</p>
+	</div>
 
 			<p class="rm" align="right">
-				<a href="city_info.jsp">Read More</a>
+				<a href="ABOUT CUTTACK.jsp">Read More</a>
 			</p>
 		</div>
 	</div>
 	</div>
-
+<br>
 	<div id="footer">
-		<div class="leftFooter" align="center">
-			<a href="city_info.jsp">About Cuttack</a> <a>&nbsp; | &nbsp;</a> <a
-				href="Content/Holiday-list-2016.jpg" download>Holiday List</a> <a>&nbsp;
-				| &nbsp;</a></a> <a href="ContactUs.php">Contact</a>
+			<div class="leftFooter" align="center">
+				<a>&nbsp; | &nbsp;</a><a href="Emergency Contact.jsp">Emergency
+					Contact</a> <a>&nbsp; | &nbsp;</a> <a href="Holiday List.jsp">Holiday
+					List</a> <a>&nbsp; | &nbsp;</a></a> <a href="ContactUs.jsp">Contact</a><a>&nbsp;
+					| &nbsp;</a>
+			</div>
 		</div>
-	</div>
-	<div id="copyright">&copy; 2020 Cuttack Exploration All rights
+		<div id="copyright">&copy; 2020 Cuttack Exploration All rights
 		reserved</div>
 	<!--</div>-->
 </body>

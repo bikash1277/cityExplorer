@@ -169,20 +169,21 @@
 			</p>
 
 			<p class="rm" align="right">
-				<a href="city_info.jsp">Read More</a>
+				<a href="ABOUT CUTTACK.jsp">Read More</a>
 			</p>
 		</div>
 	</div>
 	</div>
-
+<br>
 	<div id="footer">
-		<div class="leftFooter" align="center">
-			<a href="city_info.jsp">About Cuttack</a> <a>&nbsp; | &nbsp;</a> <a
-				href="Content/Holiday-list-2016.jpg" download>Holiday List</a> <a>&nbsp;
-				| &nbsp;</a></a> <a href="ContactUs.php">Contact</a>
+			<div class="leftFooter" align="center">
+				<a>&nbsp; | &nbsp;</a><a href="Emergency Contact.jsp">Emergency
+					Contact</a> <a>&nbsp; | &nbsp;</a> <a href="Holiday List.jsp">Holiday
+					List</a> <a>&nbsp; | &nbsp;</a></a> <a href="ContactUs.jsp">Contact</a><a>&nbsp;
+					| &nbsp;</a>
+			</div>
 		</div>
-	</div>
-	<div id="copyright">&copy; 2020 Cuttack Exploration All rights
+		<div id="copyright">&copy; 2020 Cuttack Exploration All rights
 		reserved</div>
 	<!--</div>-->
 </body>

@@ -88,10 +88,11 @@
 					Temple, Quadam-e-Rasool. The city is also popular for the silver
 					Filgiri work that is simply brilliant and unique. Among the
 					festivals celebrated here, the important ones are Dushhera, Kali
-					Puja, Katikeshwar Puja and Bali Yatra â the biggest trade
+					Puja, Katikeshwar Puja and Bali Yatra – the biggest trade
 					festival. People of the city follow ancient traditions and rituals
 					that can be seen the way they celebrate.</span>
 			</p>
+
 			<p class="rm" align="right">
 				<a href="ABOUT CUTTACK.jsp">Read More</a>
 			</p>
